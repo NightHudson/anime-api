@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Rampart+One&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body {
+  font-family: "Rampart One", sans-serif;
+  background-image: url(https://i0.wp.com/ovicio.com.br/wp-content/uploads/2024/06/20240611-cavaleiros-de-ouro.jpeg?fit=2500%2C1406&ssl=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 0;
+  padding: 50px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: linear-gradient(135deg, #FFD700, #FFC300, #FFB300, #FFA500);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.categoty {
+    font-size: 21px;
+}
+
+#category {
+    cursor: pointer;
+    background: linear-gradient(90deg, #fff6b7 0%, #fcd462 25%, #dda94b 50%, #c49102 75%, #7f5d00 100%);
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+#fetchButton {
+    background: linear-gradient(90deg, #fff6b7 0%, #fcd462 25%, #dda94b 50%, #c49102 75%, #7f5d00 100%);    
+    margin-top: 5px;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 4px 20px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#fetchButton:hover {
+  box-shadow: 0 0 15px rgba(255, 223, 70, 0.8), 0 6px 24px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
